@@ -44,8 +44,7 @@
     "node": "14.16.0",
     "npm": "^6.0.0"
   },
-  "license": "MIT",
-  "optionalDependencies": {
-    "fsevents": "2.1.2"
-  }
+  "license": "MIT"
+  
+  
 }
