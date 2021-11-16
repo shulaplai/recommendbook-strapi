@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   host: env("HOST", "0.0.0.0"),
-  port: env.int("PORT", 1337),
+  port: env.int("PORT", 1337) ||process.env.PORT,
   admin: {
     auth: {
       secret: env("ADMIN_JWT_SECRET", "3e23f902b64044d629375898da710984"),
