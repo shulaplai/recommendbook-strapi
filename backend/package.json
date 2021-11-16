@@ -41,11 +41,11 @@
     "starter": "https://github.com/strapi/strapi-starter-next-blog"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": "^13.0.0",
     "npm": "^6.0.0"
   },
   "license": "MIT",
   "optionalDependencies": {
-  "fsevents": "2.1.2"
-}
+    "fsevents": "2.1.2"
+  }
 }
